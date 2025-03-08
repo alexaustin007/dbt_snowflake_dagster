@@ -48,11 +48,17 @@ Create a .env file to store your environment variables, such as Snowflake creden
 
 
 SNOWFLAKE_USER=your_snowflake_username
+
 SNOWFLAKE_PASSWORD=your_snowflake_password
+
 SNOWFLAKE_ACCOUNT=your_snowflake_account
+
 SNOWFLAKE_WAREHOUSE=your_snowflake_warehouse
+
 SNOWFLAKE_DATABASE=your_snowflake_database
+
 SNOWFLAKE_SCHEMA=your_snowflake_schema
+
 Run Docker Compose:
 
 Use Docker Compose to set up the Dagster and DBT containers.
