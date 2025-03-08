@@ -46,9 +46,7 @@ Configure the .env file:
 
 Create a .env file to store your environment variables, such as Snowflake credentials. For example:
 
-plaintext
-Copy
-Edit
+
 SNOWFLAKE_USER=your_snowflake_username
 SNOWFLAKE_PASSWORD=your_snowflake_password
 SNOWFLAKE_ACCOUNT=your_snowflake_account
@@ -59,15 +57,13 @@ Run Docker Compose:
 
 Use Docker Compose to set up the Dagster and DBT containers.
 
-bash
-Copy
-Edit
+
 docker-compose up --build
 This will build and start all necessary containers for Dagster, DBT, and the Snowflake database.
 
 Run the Dagster pipeline:
 
-After Docker Compose has started, open Dagster's UI at http://localhost:3000. You can run the job defined in the my_dagster_project/my_jobs.py file.
+Start dagster by "dagster dev" command, After Docker Compose has started, open Dagster's UI at http://localhost:3000. You can run the job defined in the my_dagster_project/my_jobs.py file.
 
 Monitor the job in Dagster:
 
@@ -81,9 +77,7 @@ Push to GitHub:
 
 After making changes or updates to the project, commit and push them to GitHub:
 
-bash
-Copy
-Edit
+
 git add .
 git commit -m "Update pipeline and configuration"
 git push origin main
