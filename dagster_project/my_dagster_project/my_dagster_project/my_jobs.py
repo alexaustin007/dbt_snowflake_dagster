@@ -6,9 +6,9 @@ import snowflake.connector
 @op
 def extract_and_load():
     conn = snowflake.connector.connect(
-        user="ALEXAUSTIN",
-        password="Faang@@@976976",
-        account="XBCUYLC-XOB55779",
+        user="XXXXXXXXXXXXXX",
+        password="XXXXXXXXXXXXXX",
+        account="XXXXXXXXXXXXXX",
         warehouse="COMPUTE_WH",
         database="MY_DB",
         schema="MY_SCHEMA"
