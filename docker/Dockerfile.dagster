@@ -1,0 +1,11 @@
+FROM python:3.9
+
+RUN pip install dagster-webserver
+
+WORKDIR /dagster_project
+
+RUN pip install dagster dagster-dbt dagster-snowflake pandas
+
+COPY . /dagster_project
+
+CMD ["dagster", "dev"]

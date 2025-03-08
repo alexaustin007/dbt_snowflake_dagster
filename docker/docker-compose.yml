@@ -1,0 +1,16 @@
+version: "3"
+services:
+  dagster:
+    build:
+      context: .
+      dockerfile: Dockerfile.dagster
+    ports:
+      - "3000:3000"
+
+  dbt:
+    build:
+      context: ./dbt
+      dockerfile: Dockerfile.dbt
+    volumes:
+      - /Users/alexaustinchettiar/.dbt:/root/.dbt  
+      - /Users/alexaustinchettiar/Downloads/dbt_snowflake_dagster/dbt_project:/dbt_project  

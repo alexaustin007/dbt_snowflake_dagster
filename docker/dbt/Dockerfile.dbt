@@ -1,0 +1,9 @@
+FROM python:3.9
+
+WORKDIR /dbt_project
+
+RUN pip install dbt-snowflake
+
+COPY . /dbt_project
+
+CMD ["dbt", "run"]
