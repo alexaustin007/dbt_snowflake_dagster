@@ -89,7 +89,7 @@
 [0m16:12:42.395985 [info ] [MainThread]:  - git [[32mOK found[0m]
 
 [0m16:12:42.396196 [info ] [MainThread]: Connection:
-[0m16:12:42.396407 [info ] [MainThread]:   account: XBCUYLC-XOB55779
+[0m16:12:42.396407 [info ] [MainThread]:   account: XXXXXXX-XOB55779
 [0m16:12:42.396580 [info ] [MainThread]:   user: ALEXAUSTIN
 [0m16:12:42.396747 [info ] [MainThread]:   database: MY_DB
 [0m16:12:42.396919 [info ] [MainThread]:   warehouse: COMPUTE_WH
