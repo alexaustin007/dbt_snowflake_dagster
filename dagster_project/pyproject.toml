@@ -3,5 +3,5 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [tool.dagster]
-module_name = "my_dagster_project"
+module_name = "my_dagster_project.repository"
 repository = "my_dagster_project_repo"
