@@ -1,0 +1,14 @@
+dbt_project:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "XXXXXXX-XXXXXXXX"
+      user: "ALEXAUSTIN"
+      password: "XXXXXXXXXXXXXX"
+      role: "ACCOUNTADMIN"
+      database: "MY_DB"
+      schema: "MY_SCHEMA"
+      warehouse: "COMPUTE_WH"
+      threads: 10
+
